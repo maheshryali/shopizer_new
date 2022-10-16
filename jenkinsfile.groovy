@@ -18,5 +18,5 @@ pipeline {
             }
         }
     }
-     triggers { pollscm('30 17 * * *') }
+     triggers { cron('30 17 * * *') }
 }
